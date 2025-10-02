@@ -1,0 +1,15 @@
+#convert all .sdf into .pdbqt files
+
+obabel -isdf *.sdf -opdbqt -O*.pdbqt
+---------------------------------
+
+#create a single file with ligands
+dir or ls > ligand.txt 
+---------------------------
+#To run
+perl vina_linux.pl 
+ligand.txt
+------------------------------
+#To get a single result
+
+tail -n11 *.log > results.txt

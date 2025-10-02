@@ -1,0 +1,14 @@
+receptor = 2ijk_A.pdbqt
+ligand = 2ijk_B.pdbqt
+
+out = 2ijk_dimer_dock.pdbqt
+
+center_x = 31.972
+center_y = -1.394
+center_z = 1.812
+
+size_x = 48
+size_y = 38
+size_z = 44
+
+exhaustiveness=20
