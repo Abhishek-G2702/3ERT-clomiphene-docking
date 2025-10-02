@@ -1,0 +1,5 @@
+obabel -isdf *.sdf -opdbqt -O*.pdbqt    #to convert the sdf file into pdbqt
+
+ligand.txt                       # create single ligand file
+
+perl Vina_linux.pl               # to run
